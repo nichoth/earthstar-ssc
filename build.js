@@ -18,6 +18,7 @@ async function main () {
 
   const params = {
     entryPoints: ['src/index.js'],
+    platform: 'node',
     format: 'esm',
     bundle: true,
     minify: !!prod,

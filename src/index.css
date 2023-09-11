@@ -102,19 +102,31 @@ html {
     }
   }
   
-  /* Placeholder Styles */
-  body {
-    height: 100vh;
-    font: -apple-system-body;
-    background-color: var(--tonic-window);
-    color: var(--tonic-primary);
-  }
-  
-  h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font: -apple-system-title0;
-    font-size: 2.5em;
-  }
+/* Placeholder Styles */
+body {
+  height: 100vh;
+  font: -apple-system-body;
+  background-color: var(--tonic-window);
+  color: var(--tonic-primary);
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: -apple-system-title0;
+  font-size: 2.5em;
+}
+
+#msg-form {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+#msg-form {
+  text-align: right;
+}
