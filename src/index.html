@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="
+        connect-src http://localhost:8080 ipc://* file://* socket:*;
+        child-src 'none';
+        img-src https: data: file:;
+        "
+    >
+    <link rel="stylesheet" href="index.css">
+    <title>Earthstar example</title>
+</head>
+<body>
+    <app-container id="root"></app-container>
+    <script src="index.js" type="module"></script>
+</body>
+</html>

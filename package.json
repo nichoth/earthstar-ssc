@@ -1,0 +1,17 @@
+{
+    "type": "module",
+    "scripts": {
+        "test": "ssc build -r -o --test=./test/index.js --headless",
+        "init-project": "ssc init",
+        "start": "ssc build -r -o",
+        "build": "ssc build -o"
+    },
+    "dependencies": {
+        "@nichoth/earthstar": "file:../nichoth-earthstar",
+        "@socketsupply/tonic": "^15.1.1"
+    },
+    "devDependencies": {
+        "@socketsupply/socket": "^0.3.3",
+        "esbuild": "^0.19.2"
+    }
+}
